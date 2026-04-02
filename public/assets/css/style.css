@@ -1,0 +1,122 @@
+/* RESET ET FOND */
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    height: 100vh;
+    background: linear-gradient(180deg, #00b359 0%, #00d2ff 100%) no-repeat fixed;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+.header-top {
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+/* CONTENEUR VERTICAL */
+.choices-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    padding: 20px 0 40px 0;
+}
+
+/* LES CARTES */
+.choice-card {
+    background: white;
+    border-radius: 28px;
+    padding: 50px 40px;
+    width: 85%;
+    max-width: 700px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.choice-card h2 {
+    color: #00a650;
+    font-size: 2.4rem;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+}
+
+.choice-card p {
+    color: #555;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* BOUTONS */
+.btn-start {
+    display: block;
+    width: 100%;
+    padding: 25px 0;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    letter-spacing: 1px;
+    -webkit-tap-highlight-color: transparent;
+    transition: opacity 0.15s;
+}
+
+.btn-start:active {
+    opacity: 0.85;
+    transform: scale(0.98);
+}
+
+.btn-green { background: #00a650; color: white; }
+.btn-blue  { background: #004a99; color: white; }
+
+/* QR / LOGIN */
+.qr-placeholder {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(1);    opacity: 0.8; }
+    50%  { transform: scale(1.05); opacity: 1;   }
+    100% { transform: scale(1);    opacity: 0.8; }
+}
+
+.btn-secondary {
+    display: block;
+    background: #666;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    margin-top: 20px;
+}

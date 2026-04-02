@@ -1,0 +1,461 @@
+CRITICAL - 2026-01-30 15:51:04 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:12 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:17 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:19 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: depot]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:19 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: refus]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:21 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: depot]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:54 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: depot]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:55 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: depot]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:56 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: depot]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 15:51:56 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: depot]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:13:40 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:18:01 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:20:07 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:20:20 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:20:56 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:20:57 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:21:25 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:21:27 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-30 16:21:34 --> Error: Class "App\Models\DepotModel" not found
+[Method: GET, Route: finalisation]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-01-30 16:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-30 16:22:43 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'adminCollecte'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'adminCollecte', Object(SensitiveParameterValue), 'base_de_collect...', 3306, '', 0)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-30 16:22:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+[Method: GET, Route: finalisation]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`points`) AS `points`
+FROM `depot_user`
+WHERE `id_utilisateur` = :id_utilisateur:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-01-30 16:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-30 16:28:30 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-30 16:28:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+[Method: GET, Route: finalisation]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`points`) AS `points`
+FROM `depot_user`
+WHERE `id_utilisateur` = :id_utilisateur:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-01-30 16:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-30 16:29:46 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-30 16:29:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+[Method: GET, Route: finalisation]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`points`) AS `points`
+FROM `depot_user`
+WHERE `id_utilisateur` = :id_utilisateur:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-01-30 16:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-30 16:29:52 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-30 16:29:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+[Method: GET, Route: finalisation]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`points`) AS `points`
+FROM `depot_user`
+WHERE `id_utilisateur` = :id_utilisateur:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-01-30 16:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-30 16:29:53 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`poi...', Array, false)
+#3 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+#6 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\app\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+#7 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+#8 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\tempB\B5\borne-ihm-sauvegarde\borne-ihm\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-01-30 16:29:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+[Method: GET, Route: finalisation]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`points`) AS `points`
+FROM `depot_user`
+WHERE `id_utilisateur` = :id_utilisateur:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\DepotModel.php(14): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(73): App\Models\DepotModel->getTotalPoints(1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->finalisation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,140 @@
+/* RESET ET FOND */
+html {
+    height: 100%;
+    background: linear-gradient(180deg, #00b359 0%, #00d2ff 100%) no-repeat fixed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: transparent !important;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER ROUGE (Inspiré de ta photo) */
+.header-error {
+    width: 100%;
+    background-color: #e30613; /* Rouge vif */
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-circle-white {
+    width: 45px;
+    height: 45px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-text h1 { margin: 0; font-size: 1.8rem; }
+.header-text p { margin: 0; opacity: 0.9; }
+
+/* CONTENU PRINCIPAL */
+.container {
+    width: 90%;
+    max-width: 650px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.error-circle {
+    width: 110px;
+    height: 110px;
+    background: white;
+    border: 8px solid #e30613;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.cross { color: #e30613; font-size: 60px; font-weight: bold; }
+
+h2 { color: #1a2a3a; font-size: 2.2rem; margin-bottom: 30px; }
+
+/* CARTES BLANCHES */
+.alert-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    border: 2px solid #ff4d4d;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.alert-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.alert-title h3 { margin: 0; color: #333; font-size: 1.4rem; }
+
+.help-card {
+    background: #f0f7ff; /* Bleu très pâle pour différencier */
+    border-radius: 12px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.help-card h3 { color: #004080; margin-top: 0; display: flex; align-items: center; gap: 10px; }
+.icon-undo { font-size: 1.5rem; }
+
+.help-card.interactive {
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    border: 2px solid transparent;
+}
+
+.help-card.interactive:hover {
+    transform: scale(1.02); /* Effet de zoom léger */
+    background-color: #e8f4ff; /* Couleur légèrement plus foncée au survol */
+    border-color: #00d2ff;
+}
+
+.help-card.interactive:active {
+    transform: scale(0.98); /* Effet d'appui */
+}
+
+
+.btn-retour {
+    background-color: #00b359;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* On s'assure que le lien prend bien toute la largeur */
+a {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+}
+
+ul { padding-left: 20px; color: #444; line-height: 1.6; }
+li { margin-bottom: 10px; font-size: 1.1rem; }

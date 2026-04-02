@@ -1,0 +1,52 @@
+CRITICAL - 2026-01-21 13:42:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "accueil_borne.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('accueil_borne.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('accueil_borne', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('accueil_borne')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-21 13:43:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "accueil_borne.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('accueil_borne.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('accueil_borne', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('accueil_borne')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-21 13:56:54 --> ErrorException: Undefined variable $nbBouteilles
+[Method: GET, Route: depot]
+in APPPATH\Views\depot.php on line 1.
+ 1 APPPATH\Views\depot.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nbBouteilles', 'D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\app\\Views\\depot.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\app\\Views\\depot.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('depot', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('depot')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->depot()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-21 13:56:56 --> ErrorException: Undefined variable $nbBouteilles
+[Method: GET, Route: depot]
+in APPPATH\Views\depot.php on line 1.
+ 1 APPPATH\Views\depot.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nbBouteilles', 'D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\app\\Views\\depot.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\tempB\\B5\\borne-ihm-sauvegarde\\borne-ihm\\app\\Views\\depot.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('depot', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('depot')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->depot()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

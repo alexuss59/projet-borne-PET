@@ -1,0 +1,444 @@
+ERROR - 2026-03-26 14:26:09 --> mysqli_sql_exception: Table 'cristallineapp_base_de_collecte.utilisateurs' doesn't exist in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-03-26 14:26:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'cristallineapp_base_de_collecte.utilisateurs' doesn't exist
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-03-26 14:26:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'cristallineapp_base_de_collecte.utilisateurs' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-03-26 14:26:09 --> [Caused by] mysqli_sql_exception: Table 'cristallineapp_base_de_collecte.utilisateurs' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-03-26 14:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 14:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 14:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 14:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 14:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-26 15:03:10 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-03-26 15:03:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-03-26 15:03:15 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-03-26 15:03:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-03-26 15:03:15 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-03-26 15:03:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-03-26 15:03:16 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-03-26 15:03:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-03-26 15:03:16 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-03-26 15:03:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-03-26 15:03:16 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql-cristallineapp.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-03-26 15:03:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql-****.alwaysdata.net failed: Temporary failure in name resolution
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-03-26 15:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 15:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-26 16:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

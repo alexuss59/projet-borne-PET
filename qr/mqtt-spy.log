@@ -1,0 +1,74 @@
+2026-01-28 14:39:06,846 INFO  [JavaFX Application Thread     ] [MqttViewManager               ]  - Default configuration file present (C:\Users\B5\mqtt-spy\mqtt-spy-configuration.xml) = false
+2026-01-28 14:39:12,398 ERROR [JavaFX Application Thread     ] [ControlPanelController        ]  - Cannot retrieve version info
+pl.baczkowicz.spy.exceptions.XMLException: Cannot unmarshal the XML
+	at pl.baczkowicz.spy.xml.XMLParser.loadFromString(XMLParser.java:285)
+	at pl.baczkowicz.spy.ui.versions.VersionManager.loadVersions(VersionManager.java:98)
+	at pl.baczkowicz.spy.ui.controllers.ControlPanelController$2.run(ControlPanelController.java:203)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.xml.bind.UnmarshalException
+ - with linked exception:
+[org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 12; Des guillemets ouvrants sont attendus pour l'attribut "align" associé à un type d'élément "div".]
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.createUnmarshalException(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.createUnmarshalException(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at pl.baczkowicz.spy.xml.XMLParser.loadFromString(XMLParser.java:277)
+	... 3 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 12; Des guillemets ouvrants sont attendus pour l'attribut "align" associé à un type d'élément "div".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	... 8 more
+2026-01-28 14:39:53,781 INFO  [JavaFX Application Thread     ] [EditConnectionsController     ]  - Selecting first item...
+2026-01-28 14:39:53,781 INFO  [JavaFX Application Thread     ] [EditConnectionsController     ]  - Selecting first item...
+2026-01-28 14:39:53,785 INFO  [JavaFX Application Thread     ] [EditConnectionsController     ]  - Selecting first item...
+2026-01-28 14:40:16,189 INFO  [JavaFX Application Thread     ] [EditMqttConnectionController  ]  - Opening connection B5143953782@127.0.0.1
+2026-01-28 14:40:16,196 INFO  [JavaFX Application Thread     ] [MqttConfigurationUtils        ]  - Auto-complete for server URI (127.0.0.1 -> tcp://127.0.0.1)
+2026-01-28 14:40:16,296 ERROR [JavaFX Application Thread     ] [FileUtils                     ]  - No files in C:\Users\B5\mqtt-spy\
+2026-01-28 14:40:16,825 INFO  [mqtt-spy [ConnectionRunnable for B5143953782@127.0.0.1]] [MqttAsyncConnectionRunnable   ]  - Connecting client ID [B5143953782] to server [[tcp://127.0.0.1]]; options = 
+============== Connection options ==============
+CleanSession                :  true
+SocketFactory               :  null
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  30
+UserName                    :  null
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+
+2026-01-28 14:40:20,944 WARN  [MQTT Con: B5143953782         ] [MqttConnectionResultHandler   ]  - Connecting to B5143953782@127.0.0.1 failed
+Impossible de se connecter au serveur (32103) - java.net.ConnectException: Connection refused: connect
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 more
+2026-01-28 14:41:19,760 INFO  [JavaFX Application Thread     ] [MqttConnectionWithReconnection]  - Disconnecting B5143953782 from [tcp://127.0.0.1]
