@@ -1,5 +1,9 @@
 <?php
 use CodeIgniter\Router\RouteCollection;
+
+/**
+ * @var RouteCollection $routes
+ */
 $routes->get('/', 'Home::index');
 $routes->get('depot', 'Home::depot');
 $routes->get('depot_anonyme', 'Home::depot_anonyme');
@@ -12,3 +16,8 @@ $routes->get('fin_de_session', 'Home::fin_de_session');
 $routes->get('relancer_tapis', 'Home::relancer_tapis');
 $routes->get('borne/scan', 'Home::page_scan');
 $routes->post('borne/verifier_scan', 'Home::verifier_scan');
+
+// --- LES NOUVELLES ROUTES POUR TES BOUTONS ---
+$routes->get('home/cumuler', 'Home::cumuler');
+$routes->get('home/imprimer_bon', 'Home::finalisation'); // Redirige vers ta fonction qui marche déjà
+$routes->get('deconnexion', 'Home::deconnexion'); // Au cas où tu l'utilises

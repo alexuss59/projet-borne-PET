@@ -1,0 +1,167 @@
+DEBUG - 2026-04-09 12:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 12:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-09 13:07:43 --> mysqli_sql_exception: Unknown column 'points' in 'SET' in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-04-09 13:07:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'points' in 'SET'
+[Method: GET, Route: home/cumuler]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 APPPATH/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-09 13:07:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'points' in 'SET'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-09 13:07:43 --> [Caused by] mysqli_sql_exception: Unknown column 'points' in 'SET'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-09 13:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-09 13:58:09 --> mysqli_sql_exception: Unknown column 'points' in 'SET' in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-04-09 13:58:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'points' in 'SET'
+[Method: GET, Route: home/cumuler]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 APPPATH/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-09 13:58:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'points' in 'SET'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-09 13:58:09 --> [Caused by] mysqli_sql_exception: Unknown column 'points' in 'SET'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Home.php(156): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cumuler()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-09 13:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 13:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-09 14:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

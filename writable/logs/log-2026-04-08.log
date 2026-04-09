@@ -1,0 +1,411 @@
+DEBUG - 2026-04-08 11:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 12:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-08 12:50:55 --> Error connecting to the database: mysqli_sql_exception: Network is unreachable in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Network is unreachable in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-04-08 12:50:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Network is unreachable
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-08 12:54:53 --> Error connecting to the database: mysqli_sql_exception: Network is unreachable in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Network is unreachable in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-04-08 12:54:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Network is unreachable
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-08 12:59:37 --> mysqli_sql_exception: Unknown column 'qr_code' in 'WHERE' in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-08 12:59:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qr_code' in 'WHERE'
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-08 12:59:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qr_code' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-08 12:59:37 --> [Caused by] mysqli_sql_exception: Unknown column 'qr_code' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-08 13:11:01 --> mysqli_sql_exception: Unknown column 'qr_code' in 'WHERE' in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-08 13:11:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qr_code' in 'WHERE'
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-08 13:11:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qr_code' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-08 13:11:01 --> [Caused by] mysqli_sql_exception: Unknown column 'qr_code' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-08 13:12:21 --> Error connecting to the database: mysqli_sql_exception: Connection timed out in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection timed out in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-04-08 13:12:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-08 13:12:27 --> Error connecting to the database: mysqli_sql_exception: Connection timed out in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection timed out in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-04-08 13:12:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-08 13:12:27 --> Error connecting to the database: mysqli_sql_exception: Connection timed out in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection timed out in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+CRITICAL - 2026-04-08 13:12:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 465.
+ 1 SYSTEMPATH/Database/BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-08 13:14:58 --> mysqli_sql_exception: Unknown column 'qr_code' in 'WHERE' in /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/borne-ihm-sauvegarde/app/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+#6 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#10 /var/www/html/borne-ihm-sauvegarde/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2026-04-08 13:14:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qr_code' in 'WHERE'
+[Method: POST, Route: borne/verifier_scan]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-08 13:14:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'qr_code' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-08 13:14:58 --> [Caused by] mysqli_sql_exception: Unknown column 'qr_code' in 'WHERE'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(94): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->verifier_scan()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-08 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 13:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 13:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 13:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 13:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 14:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 14:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-08 14:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -9,7 +9,6 @@
 </head>
 <body>
 
-    <!-- INFO CARDS -->
     <div class="top-dashboard">
         <div class="info-card">
             <div class="info-icon">👤</div>
@@ -27,7 +26,6 @@
         </div>
     </div>
 
-    <!-- ÉTAPE 1 : SCAN -->
     <div id="step-analysis" class="screen">
 
         <div class="bottle-graphic-area">
@@ -50,15 +48,25 @@
         </div>
 
         <div class="btn-main-wrapper">
-            <a href="<?= site_url('finalisation') ?>" id="btn-terminer-analyse" class="btn-main btn-disabled">
-                <span class="btn-main-icon">🧾</span>
-                TERMINER &amp; IMPRIMER MON TICKET
-            </a>
-        </div>
+    <?php if(session()->has('user_id')): ?>
+        <a href="<?= site_url('home/imprimer_bon') ?>" id="btn-terminer-analyse" class="btn-main btn-disabled" style="background-color: #f39c12; margin-bottom: 10px; border:none;">
+            <span class="btn-main-icon">🎟️</span> IMPRIMER UN BON D'ACHAT
+        </a>
+        
+        <a href="<?= site_url('home/cumuler') ?>" id="btn-cumuler" class="btn-main btn-disabled" style="background-color: #27ae60; border:none;">
+            <span class="btn-main-icon">💳</span> CUMULER SUR MON COMPTE
+        </a>
+    <?php else: ?>
+        <a href="<?= site_url('finalisation') ?>" id="btn-terminer-analyse" class="btn-main btn-disabled">
+            <span class="btn-main-icon">🧾</span> TERMINER & IMPRIMER MON TICKET
+        </a>
+    <?php endif; ?>
 
-    </div>
+    <a href="<?= site_url('/') ?>" id="btn-retour-accueil" class="btn-back">
+        <span class="icon">✖</span> ANNULER ET RETOURNER À L'ACCUEIL
+    </a>
+</div>
 
-    <!-- ÉTAPE 2 : SUCCÈS -->
     <div id="step-success" class="screen hidden">
 
         <div class="success-circle">
@@ -98,10 +106,17 @@
                     document.getElementById('solde-valeur').innerText = data.total;
 
                     const btnAnalyse = document.getElementById('btn-terminer-analyse');
+                    const btnCumuler = document.getElementById('btn-cumuler'); // On cible le bouton Cumuler
+                    const btnRetour = document.getElementById('btn-retour-accueil');
+
                     if (data.total > 0) {
-                        btnAnalyse.classList.remove('btn-disabled');
+                        if (btnAnalyse) btnAnalyse.classList.remove('btn-disabled');
+                        if (btnCumuler) btnCumuler.classList.remove('btn-disabled'); // On l'active
+                        if (btnRetour) btnRetour.style.display = 'none';
                     } else {
-                        btnAnalyse.classList.add('btn-disabled');
+                        if (btnAnalyse) btnAnalyse.classList.add('btn-disabled');
+                        if (btnCumuler) btnCumuler.classList.add('btn-disabled'); // On le grise
+                        if (btnRetour) btnRetour.style.display = 'flex';
                     }
 
                     if (data.erreur) {
@@ -132,6 +147,5 @@
 
         setInterval(pollBorne, 800);
     </script>
-
 </body>
 </html>

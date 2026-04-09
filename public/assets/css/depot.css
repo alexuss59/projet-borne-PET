@@ -9,6 +9,45 @@ html, body {
 }
 
 /* INFO CARDS */
+
+/* On modifie le wrapper pour aligner les boutons en colonne */
+.btn-main-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Les éléments se mettent l'un sous l'autre */
+    align-items: center;    /* Centrage horizontal */
+    gap: 16px;              /* Espace entre le bouton Terminer et Annuler */
+    padding: 24px 0 50px 0;
+}
+
+/* Nouveau style du bouton annuler pour aller sous le bouton principal */
+.btn-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    padding: 16px 0;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 88%;
+    max-width: 580px;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.btn-back:hover, .btn-back:active {
+    background: rgba(255, 71, 87, 0.15); /* Fond rouge très léger au clic/survol */
+    color: #ff4757;
+    border-color: #ff4757;
+}
+
+
+
 .top-dashboard {
     display: flex;
     flex-direction: column;
