@@ -21,3 +21,5 @@ $routes->post('borne/verifier_scan', 'Home::verifier_scan');
 $routes->get('home/cumuler', 'Home::cumuler');
 $routes->get('home/imprimer_bon', 'Home::finalisation'); // Redirige vers ta fonction qui marche déjà
 $routes->get('deconnexion', 'Home::deconnexion'); // Au cas où tu l'utilises
+$routes->get('hs', 'Home::hors_service');
+$routes->get('check_status', 'Home::check_status');

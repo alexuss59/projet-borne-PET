@@ -62,7 +62,7 @@
         </a>
     <?php endif; ?>
 
-    <a href="<?= site_url('/') ?>" id="btn-retour-accueil" class="btn-back">
+    <a href="<?= site_url('fin_de_session') ?>" id="btn-retour-accueil" class="btn-back">
         <span class="icon">✖</span> ANNULER ET RETOURNER À L'ACCUEIL
     </a>
 </div>
@@ -101,6 +101,11 @@
             fetch('<?= site_url("get_total") ?>')
                 .then(res => res.json())
                 .then(data => {
+                    // NOUVEAU : Sécurité critique, si la borne plante, on coupe tout !
+                    if (data.etat === 'HS') {
+                        window.location.href = '<?= site_url("hs") ?>';
+                        return;
+                    }
                     if (dernierTotal === -1) { dernierTotal = data.total; }
 
                     document.getElementById('solde-valeur').innerText = data.total;
