@@ -1,0 +1,14 @@
+{
+    "name": "Alwaysdata-Cristalline",
+    "host": "ssh-cristallineapp.alwaysdata.net",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "cristallineapp",
+    "remotePath": "/home/cristallineapp/www/",
+    "uploadOnSave": true,
+    "ignore": [
+        ".vscode",
+        ".git",
+        ".DS_Store"
+    ]
+}
