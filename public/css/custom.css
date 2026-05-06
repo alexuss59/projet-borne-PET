@@ -1,0 +1,10 @@
+/* Pour cibler le sidebar SB Admin 2 */
+.sidebar {
+    background: (135deg, rgb(55, 153, 131) 0%, rgb(16,108,89) 70%) !important; 
+}
+
+/* Si tu utilises une classe de gradient que tu veux casser */
+.bg-gradient-primary {
+    background: #111111 !important;
+    background-image: none !important;
+}
