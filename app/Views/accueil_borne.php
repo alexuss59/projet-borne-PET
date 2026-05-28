@@ -2,13 +2,26 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil Ecobox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Accueil Crystarecycle</title>
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+    <style>
+        html, body {
+            -webkit-user-select: none;
+            user-select: none;
+            overscroll-behavior: none;
+            touch-action: none; /* Bloque tous les gestes de navigation (swipe/zoom) */
+        }
+        a, img, div {
+            -webkit-touch-callout: none;
+            -webkit-user-drag: none;
+        }
+    </style>
 </head>
 <body>
 
 <div class="header-top">
-    BORNE DE COLLECTE ECOBOX
+    BORNE DE COLLECTE CRYSTARECYCLE
 </div>
 
 <div class="choices-container">

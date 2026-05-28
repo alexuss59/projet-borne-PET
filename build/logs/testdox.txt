@@ -1,0 +1,6 @@
+Bons Achat (Tests\Unit\BonsAchat)
+ [ ] Generer e a n 13 respecte format
+ [ ] Generer bon sans token renvoie 415 ou 401
+ [ ] Generer bon avec token invalide renvoie 401
+ [ ] Generer bon avec bouteilles invalides renvoie erreur
+

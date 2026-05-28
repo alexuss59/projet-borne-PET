@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Tests\Unit\BonsAchatTest" file="/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php" tests="4" assertions="0" errors="4" failures="0" skipped="0" time="0.048624">
+    <testcase name="testGenererEAN13RespecteFormat" file="/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php" line="32" class="Tests\Unit\BonsAchatTest" classname="Tests.Unit.BonsAchatTest" assertions="0" time="0.031198">
+      <error type="Error">Tests\Unit\BonsAchatTest::testGenererEAN13RespecteFormat
+Error: Class "App\Models\Mbons" not found
+
+/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php:34</error>
+    </testcase>
+    <testcase name="testGenererBonSansTokenRenvoie415Ou401" file="/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php" line="61" class="Tests\Unit\BonsAchatTest" classname="Tests.Unit.BonsAchatTest" assertions="0" time="0.014192">
+      <error type="CodeIgniter\Exceptions\PageNotFoundException">Tests\Unit\BonsAchatTest::testGenererBonSansTokenRenvoie415Ou401
+CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'POST: api/genererBon'.
+
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php:983
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php:360
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Test/FeatureTestTrait.php:228
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Test/FeatureTestTrait.php:261
+/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php:64</error>
+    </testcase>
+    <testcase name="testGenererBonAvecTokenInvalideRenvoie401" file="/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php" line="75" class="Tests\Unit\BonsAchatTest" classname="Tests.Unit.BonsAchatTest" assertions="0" time="0.002398">
+      <error type="CodeIgniter\Exceptions\PageNotFoundException">Tests\Unit\BonsAchatTest::testGenererBonAvecTokenInvalideRenvoie401
+CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'POST: api/genererBon'.
+
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php:983
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/CodeIgniter.php:360
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Test/FeatureTestTrait.php:228
+/var/www/html/borne-ihm-sauvegarde/vendor/codeigniter4/framework/system/Test/FeatureTestTrait.php:261
+/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php:80</error>
+    </testcase>
+    <testcase name="testGenererBonAvecBouteillesInvalidesRenvoieErreur" file="/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php" line="90" class="Tests\Unit\BonsAchatTest" classname="Tests.Unit.BonsAchatTest" assertions="0" time="0.000835">
+      <error type="Error">Tests\Unit\BonsAchatTest::testGenererBonAvecBouteillesInvalidesRenvoieErreur
+Error: Class "App\Models\Msupermarche" not found
+
+/var/www/html/borne-ihm-sauvegarde/tests/unit/BonsAchatTest.php:92</error>
+    </testcase>
+  </testsuite>
+</testsuites>
