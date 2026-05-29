@@ -251,7 +251,7 @@ class Home extends BaseController
             return 'HS'; // Par défaut si non existant (erreur de connexion avec le pont)
         }
         $val = strtoupper(trim(file_get_contents($path_etat)));
-        if ($val === 'OK') {
+        if ($val === 'OK' || $val === 'BORNE_VIDE' || $val === 'BORNE VIDE') {
             return 'OK';
         }
         if ($val === 'HS') {
