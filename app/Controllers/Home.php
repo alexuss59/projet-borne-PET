@@ -31,6 +31,9 @@ class Home extends BaseController
     public function depot_anonyme()
     {
         $this->_resetFichiers();
+        
+        // CORRECTION CRITIQUE : On efface tout ID utilisateur restant en mémoire
+        session()->remove('user_id');
         session()->set(['user_nom' => 'Client Anonyme']);
 
         // RETAIN ACTIF (-r)
@@ -133,7 +136,7 @@ class Home extends BaseController
 
         // 3. SÉCURITÉ : On remet les compteurs à zéro et on déconnecte le client
         $this->_resetFichiers();
-        if ($session->has('user_id')) {
+        if ($session->has('user_id') || $session->has('user_nom')) {
             $session->destroy();
         }
 
@@ -146,6 +149,11 @@ class Home extends BaseController
         // RETAIN ACTIF (-r)
         shell_exec("/usr/bin/mosquitto_pub -h 127.0.0.1 -t 'ecobox/action' -m 'DESACTIVER_BORNE' -r");
         $this->_resetFichiers();
+        
+        // CORRECTION CRITIQUE : Déconnecter l'utilisateur quand il annule
+        if (session()->has('user_id') || session()->has('user_nom')) {
+            session()->destroy();
+        }
 
         return redirect()->to(site_url('/'));
     }
