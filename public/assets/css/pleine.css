@@ -3,10 +3,10 @@
     --primary-amber: #ff9f1c;
     --secondary-orange: #ff4000;
     --text-white: #ffffff;
-    --text-muted: #b0bec5;
-    --glass-bg: rgba(28, 23, 17, 0.65);
-    --glass-border: rgba(255, 159, 28, 0.2);
-    --glow-shadow: 0 0 35px rgba(255, 159, 28, 0.3);
+    --text-muted: #cfd8dc;
+    --glass-bg: rgba(28, 23, 17, 0.75);
+    --glass-border: rgba(255, 159, 28, 0.25);
+    --glow-shadow: 0 0 45px rgba(255, 159, 28, 0.4);
 }
 
 * {
@@ -16,7 +16,7 @@
 }
 
 body {
-    background: radial-gradient(circle at 50% 20%, #20170b 0%, #0d0b09 100%);
+    background: radial-gradient(circle at 50% 20%, #2b1f0e 0%, #0d0b09 100%);
     color: var(--text-white);
     font-family: 'Segoe UI', Arial, sans-serif;
     min-height: 100vh;
@@ -24,39 +24,39 @@ body {
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-    padding: 20px;
+    padding: 30px;
 }
 
-/* CONTAINER AJUSTÉ POUR LE FORMAT BORNE 15.6" */
+/* CONTAINER AGRANDI POUR LE FORMAT BORNE 15.6" */
 .full-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    width: 90%;
-    max-width: 620px;
+    gap: 40px;
+    width: 95%;
+    max-width: 720px; /* Plus large pour plus d'impact */
     margin: 20px auto;
 }
 
-/* GRAPHISME DE LA BORNE COMPACT & ÉLÉGANT */
+/* GRAPHISME DE LA BORNE AGRANDI */
 .visual-wrapper {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 330px;
+    width: 230px;
+    height: 380px; /* Plus grand */
     flex-shrink: 0;
 }
 
 .kiosk-frame {
-    background: linear-gradient(135deg, #2c2c2c 0%, #1e1e1e 100%);
-    border: 3px solid #3a3a3a;
-    border-radius: 28px 28px 14px 14px;
+    background: linear-gradient(135deg, #333333 0%, #1e1e1e 100%);
+    border: 3.5px solid #444444;
+    border-radius: 32px 32px 16px 16px;
     width: 100%;
     height: 100%;
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5), inset 0 2px 8px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 55px rgba(0, 0, 0, 0.6), inset 0 2px 10px rgba(255, 255, 255, 0.15);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -66,11 +66,11 @@ body {
 
 /* Écran du Kiosk simulé */
 .kiosk-screen {
-    height: 110px;
+    height: 130px; /* Plus grand */
     background: #000000;
-    margin: 15px 15px 8px 15px;
-    border-radius: 12px;
-    border: 2px solid #2a2a2a;
+    margin: 18px 18px 10px 18px;
+    border-radius: 14px;
+    border: 2px solid #2e2e2e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,18 +78,21 @@ body {
     overflow: hidden;
 }
 
-.warning-icon {
-    font-size: 48px;
-    filter: drop-shadow(0 0 10px var(--primary-amber));
+/* Style de l'icône Warning en SVG */
+.warning-svg {
+    width: 70px;
+    height: 70px;
+    color: var(--primary-amber);
+    filter: drop-shadow(0 0 12px var(--primary-amber));
     animation: flashIcon 2.5s infinite ease-in-out;
 }
 
 /* Corps du Kiosk simulé */
 .kiosk-body {
     flex: 1;
-    margin: 8px 15px 15px 15px;
-    background: #151515;
-    border-radius: 12px;
+    margin: 8px 18px 18px 18px;
+    background: #121212;
+    border-radius: 14px;
     border: 2px solid #222;
     position: relative;
     overflow: hidden;
@@ -102,101 +105,109 @@ body {
     left: 0;
     width: 100%;
     height: 85%;
-    background: linear-gradient(to top, rgba(255, 64, 0, 0.85) 0%, rgba(255, 159, 28, 0.75) 100%);
+    background: linear-gradient(to top, rgba(255, 64, 0, 0.9) 0%, rgba(255, 159, 28, 0.8) 100%);
     border-top: 3px solid var(--primary-amber);
-    box-shadow: 0 0 20px rgba(255, 159, 28, 0.4);
+    box-shadow: 0 0 25px rgba(255, 159, 28, 0.5);
     animation: fillWaves 4s infinite ease-in-out;
 }
 
+/* Grille de bouteilles SVG */
 .bottle-grid {
     position: absolute;
-    bottom: 15px;
+    bottom: 25px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 24px;
     z-index: 3;
-    opacity: 0.85;
 }
 
-.bottle-grid span {
+.bottle-item {
+    color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
     animation: floatBottles 3s infinite ease-in-out;
 }
-.bottle-grid span:nth-child(2) { animation-delay: 0.6s; }
-.bottle-grid span:nth-child(3) { animation-delay: 1.2s; }
+.bottle-item:nth-child(2) { animation-delay: 0.6s; }
+.bottle-item:nth-child(3) { animation-delay: 1.2s; }
+
+.bottle-svg {
+    width: 36px;
+    height: 36px;
+}
 
 /* Halo de fond */
 .radial-glow {
     position: absolute;
-    width: 320px;
-    height: 320px;
-    background: radial-gradient(circle, rgba(255, 159, 28, 0.12) 0%, rgba(255, 64, 0, 0) 70%);
+    width: 360px;
+    height: 360px;
+    background: radial-gradient(circle, rgba(255, 159, 28, 0.15) 0%, rgba(255, 64, 0, 0) 70%);
     z-index: 1;
     pointer-events: none;
 }
 
-/* CARTE DE CONTENU EN DESIGN VITREUX */
+/* CARTE DE CONTENU EN DESIGN VITREUX AGRANDIE */
 .content-card {
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-radius: 24px;
-    padding: 35px 30px;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 28px;
+    padding: 45px 40px; /* Plus d'espace */
     width: 100%;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.15);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
     text-align: center;
 }
 
 .content-card h1 {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    font-size: 2.2rem;
+    font-family: 'Outfit', 'Segoe UI', Arial, sans-serif;
+    font-size: 2.6rem; /* Plus grand */
     font-weight: 800;
     line-height: 1.2;
     background: linear-gradient(135deg, #ffffff 40%, var(--primary-amber) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .instruction-main {
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 1.45rem; /* Plus grand */
+    font-weight: 800;
     color: var(--primary-amber);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
 }
 
 .instruction-sub {
-    font-size: 1.05rem;
+    font-size: 1.15rem; /* Plus grand */
     color: var(--text-muted);
     line-height: 1.6;
 }
 
 /* Alerte Encadrée */
 .info-action {
-    background: rgba(255, 159, 28, 0.06);
-    border-left: 4px solid var(--primary-amber);
-    padding: 14px 18px;
-    border-radius: 0 10px 10px 0;
+    background: rgba(255, 159, 28, 0.08);
+    border-left: 5px solid var(--primary-amber);
+    padding: 18px 22px;
+    border-radius: 0 12px 12px 0;
     display: flex;
-    gap: 12px;
-    align-items: flex-start;
+    gap: 15px;
+    align-items: center;
     text-align: left;
 }
 
-.action-icon {
-    font-size: 20px;
-    line-height: 1;
+.info-svg {
+    width: 28px;
+    height: 28px;
+    color: var(--primary-amber);
+    flex-shrink: 0;
 }
 
 .action-text {
-    font-size: 0.9rem;
-    color: #e0e0e0;
+    font-size: 1.0rem; /* Plus grand */
+    color: #f0f0f0;
     line-height: 1.5;
 }
 
@@ -204,17 +215,17 @@ body {
 .status-indicator {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     align-self: center;
-    padding: 8px 16px;
-    background: rgba(0, 0, 0, 0.35);
+    padding: 10px 22px; /* Plus grand */
+    background: rgba(0, 0, 0, 0.45);
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .pulse-ring {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: var(--primary-amber);
     border-radius: 50%;
     position: relative;
@@ -223,10 +234,10 @@ body {
 .pulse-ring::after {
     content: '';
     position: absolute;
-    top: -5px;
-    left: -5px;
-    width: 20px;
-    height: 20px;
+    top: -6px;
+    left: -6px;
+    width: 24px;
+    height: 24px;
     border: 2px solid var(--primary-amber);
     border-radius: 50%;
     animation: wavePulse 1.8s infinite ease-out;
@@ -234,25 +245,25 @@ body {
 }
 
 .status-label {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #eeeeee;
+    font-size: 0.95rem; /* Plus grand */
+    font-weight: 700;
+    color: #ffffff;
 }
 
-/* Spinner discret */
+/* Spinner de connexion */
 .connexion-check {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     margin-top: 5px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 20px;
 }
 
 .spinner-mini {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border: 2px solid rgba(255, 159, 28, 0.2);
     border-top: 2px solid var(--primary-amber);
     border-radius: 50%;
@@ -260,8 +271,8 @@ body {
 }
 
 .check-text {
-    font-size: 0.8rem;
-    color: #78909c;
+    font-size: 0.9rem; /* Plus grand */
+    color: #90a4ae;
 }
 
 /* KEYFRAMES */
@@ -272,7 +283,7 @@ body {
 
 @keyframes floatBottles {
     0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-5px) rotate(3deg); }
+    50% { transform: translateY(-7px) rotate(3deg); }
 }
 
 @keyframes flashIcon {
