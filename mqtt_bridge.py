@@ -65,6 +65,23 @@ def imprimer_ticket(nb_bouteilles):
         # Connexion physique à l'imprimante de la borne
         p = Serial(devfile=SERIAL_PORT, baudrate=SERIAL_BAUD, bytesize=8, parity='N', stopbits=1, timeout=2.00, xonxoff=False, dsrdtr=False)
         
+        # 0. Impression du logo du supermarché (si présent)
+        p.set(align='center')
+        logo_paths = [
+            '/var/www/html/borne-ihm-sauvegarde/public/assets/leclerc_logo.png',
+            os.path.join(os.path.dirname(os.path.abspath(__file__)), 'public/assets/leclerc_logo.png'),
+            os.path.join(os.path.dirname(os.path.abspath(__file__)), 'leclerc_logo.png'),
+            'leclerc_logo.png'
+        ]
+        for lp in logo_paths:
+            if os.path.exists(lp):
+                try:
+                    p.image(lp)
+                    p.text("\n")
+                    break
+                except Exception as e:
+                    log.warning(f"Impossible d'imprimer le logo {lp} : {e}")
+        
         # 1. Bordure supérieure étoilée
         p.set(align='center', bold=False, width=1, height=1)
         p.text("******************************************\n")
