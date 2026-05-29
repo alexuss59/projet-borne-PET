@@ -9,6 +9,17 @@ class Home extends BaseController
 
     public function index()
     {
+        // On vérifie l'état de la borne pour rediriger au besoin
+        $path_etat = '/dev/shm/ecobox_etat.txt';
+        if (file_exists($path_etat)) {
+            $val = trim(file_get_contents($path_etat));
+            if ($val === 'HS') {
+                return redirect()->to(site_url('hs'));
+            }
+            if ($val === 'PLEIN' || $val === 'PLEINE') {
+                return redirect()->to(site_url('pleine'));
+            }
+        }
         return view('accueil_borne');
     }
 
@@ -57,8 +68,8 @@ class Home extends BaseController
         $path_etat = '/dev/shm/ecobox_etat.txt';
         if (file_exists($path_etat)) {
             $val = trim(file_get_contents($path_etat));
-            if ($val === 'HS') {
-                $etat = 'HS';
+            if ($val === 'HS' || $val === 'PLEIN' || $val === 'PLEINE') {
+                $etat = $val;
             }
         }
 
@@ -196,6 +207,12 @@ class Home extends BaseController
         return view('hs');
     }
 
+    // Affiche la vue Borne Pleine
+    public function borne_pleine()
+    {
+        return view('borne_pleine');
+    }
+
     // Fonction API pour le Javascript (Vérifie si l'ESP32 est là)
     public function check_status()
     {
@@ -206,6 +223,8 @@ class Home extends BaseController
             $val = trim(file_get_contents($path));
             if ($val === 'OK') {
                 $etat = 'OK';
+            } elseif ($val === 'PLEIN' || $val === 'PLEINE' || $val === 'HS') {
+                $etat = $val;
             }
         }
 

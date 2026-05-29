@@ -101,9 +101,13 @@
             fetch('<?= site_url("get_total") ?>')
                 .then(res => res.json())
                 .then(data => {
-                    // NOUVEAU : Sécurité critique, si la borne plante, on coupe tout !
+                    // NOUVEAU : Sécurité critique, si la borne plante ou est pleine, on coupe tout !
                     if (data.etat === 'HS') {
                         window.location.href = '<?= site_url("hs") ?>';
+                        return;
+                    }
+                    if (data.etat === 'PLEIN' || data.etat === 'PLEINE') {
+                        window.location.href = '<?= site_url("pleine") ?>';
                         return;
                     }
                     if (dernierTotal === -1) { dernierTotal = data.total; }
