@@ -91,6 +91,8 @@ class Home extends BaseController
     {
         $session = session();
         $total = $this->_lireCompteur();
+        $raison = $this->request->getGet('raison');
+        $user_nom = $session->get('user_nom') ?? 'Client Anonyme';
 
         // 1. SI CLIENT IDENTIFIÉ : On envoie les infos à l'API d'Adam
         if ($session->has('user_id') && $total > 0) {
@@ -129,7 +131,11 @@ class Home extends BaseController
         }
 
         // 4. AFFICHAGE : On redirige vers l'écran de remerciement
-        return view('finalisation', ['points_session' => $total]);
+        return view('finalisation', [
+            'points_session' => $total,
+            'user_nom'       => $user_nom,
+            'raison'         => $raison
+        ]);
     }
 
     public function fin_de_session()

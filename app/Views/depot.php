@@ -121,7 +121,11 @@
                         return;
                     }
                     if (data.etat === 'PLEIN' || data.etat === 'PLEINE') {
-                        window.location.href = '<?= site_url("pleine") ?>';
+                        if (data.total > 0) {
+                            window.location.href = '<?= site_url("finalisation") ?>?raison=pleine';
+                        } else {
+                            window.location.href = '<?= site_url("pleine") ?>';
+                        }
                         return;
                     }
                     if (dernierTotal === -1) { dernierTotal = data.total; }
