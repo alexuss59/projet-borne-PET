@@ -9,16 +9,12 @@ class Home extends BaseController
 
     public function index()
     {
-        // On vérifie l'état de la borne pour rediriger au besoin
-        $path_etat = '/dev/shm/ecobox_etat.txt';
-        if (file_exists($path_etat)) {
-            $val = trim(file_get_contents($path_etat));
-            if ($val === 'HS') {
-                return redirect()->to(site_url('hs'));
-            }
-            if ($val === 'PLEIN' || $val === 'PLEINE') {
-                return redirect()->to(site_url('pleine'));
-            }
+        $etat = $this->_obtenirEtat();
+        if ($etat === 'HS') {
+            return redirect()->to(site_url('hs'));
+        }
+        if ($etat === 'PLEINE') {
+            return redirect()->to(site_url('pleine'));
         }
         return view('accueil_borne');
     }
@@ -66,15 +62,7 @@ class Home extends BaseController
         $total  = $this->_lireCompteur();
         $erreur = $this->_lireErreur();
         
-        // NOUVEAU : On lit l'état de santé de la borne
-        $etat = 'OK';
-        $path_etat = '/dev/shm/ecobox_etat.txt';
-        if (file_exists($path_etat)) {
-            $val = trim(file_get_contents($path_etat));
-            if ($val === 'HS' || $val === 'PLEIN' || $val === 'PLEINE') {
-                $etat = $val;
-            }
-        }
+        $etat = $this->_obtenirEtat();
 
         return $this->response->setJSON([
             'total' => $total, 
@@ -224,18 +212,7 @@ class Home extends BaseController
     // Fonction API pour le Javascript (Vérifie si l'ESP32 est là)
     public function check_status()
     {
-        $etat = 'HS'; // Par défaut, on considère que c'est en panne
-        $path = '/dev/shm/ecobox_etat.txt';
-
-        if (file_exists($path)) {
-            $val = trim(file_get_contents($path));
-            if ($val === 'OK') {
-                $etat = 'OK';
-            } elseif ($val === 'PLEIN' || $val === 'PLEINE' || $val === 'HS') {
-                $etat = $val;
-            }
-        }
-
+        $etat = $this->_obtenirEtat();
         return $this->response->setJSON(['etat' => $etat]);
     }
 
@@ -265,6 +242,25 @@ class Home extends BaseController
         }
 
         return redirect()->to('/');
+    }
+
+    private function _obtenirEtat(): string
+    {
+        $path_etat = '/dev/shm/ecobox_etat.txt';
+        if (!file_exists($path_etat)) {
+            return 'HS'; // Par défaut si non existant (erreur de connexion avec le pont)
+        }
+        $val = strtoupper(trim(file_get_contents($path_etat)));
+        if ($val === 'OK') {
+            return 'OK';
+        }
+        if ($val === 'HS') {
+            return 'HS';
+        }
+        if (in_array($val, ['PLEIN', 'PLEINE', 'BAC_PLEIN', 'BAC PLEIN', 'FULL'])) {
+            return 'PLEINE';
+        }
+        return 'HS';
     }
 
     private function _resetFichiers(): void
